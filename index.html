@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Afacad:wght@400;700&family=Dancing+Script:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>Exercício Bootstrap</title>
+</head>
+
+<body>
+    <div class="container-fluid pe-0 ps-0">
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="#">ViaLáctea<strong class="ms-1 text-success">food</strong></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" href="#">Menu</a>
+                            <a class="nav-link" href="#">Sobre</a>
+                        </div>
+                        <div class="carrinho d-flex justify-content-end">
+                            <button class="btn d-flex"><i class="bi bi-cart4"></i><p class="ms-1 mt-0 mb-0">CARRINHO</p></button>
+                            <button class="btn btn-success">INICIAR</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="custom-shape z-2">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </header>
+        <main>
+            <div id="carouselExampleSlidesOnly" class="carousel slide z-1" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/img/shrimps-paella.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/plate-of-noodles-with-shrimps.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/grilled-shrimps-with-lemon.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+              <div class="custom-shape z-2">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <div class="container menu">
+              <div class="text-center mt-5">
+                <h4 class="text-success">Cardápio</h4>
+                <h3>Explore nosso cardápio</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus in quisquam perferendis quia incidunt dolore fuga dolor ducimus! Quaerat nobis nam perspiciatis fuga ipsam consequuntur unde et culpa velit? Labore.</p>
+              </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mt-3">
+                    <div class="col">
+                        <div class="card mt-3 rounded-4 shadow">
+                            <img src="./assets/img/detailed-shot-of-lasagna-on-a-fork.jpg" class="card-img-top rounded-top-4" alt="...">
+                            <div class="card-body text-center">
+                              <h6 class="card-title"><strong class="text-success">R$69,90</strong> por pessoa</h6>
+                              <h5 class="card-title">Lasanha 4 Queijos</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-success rounded-pill">Adicionar ao carrinho</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mt-3 rounded-4 shadow">
+                            <img src="./assets/img/flat-iron-steak-on-a-plate-in-a-restaurant.jpg" class="card-img-top rounded-top-4" alt="...">
+                            <div class="card-body text-center">
+                              <h6 class="card-title"><strong class="text-success">R$89,90</strong> por pessoa</h6>
+                              <h5 class="card-title">File Mion</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-success rounded-pill">Adicionar ao carrinho</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mt-3 rounded-4 shadow">
+                            <img src="./assets/img/lasagna-single-serving-on-a-white-plate-in-a-restaurant.jpg" class="card-img-top rounded-top-4" alt="...">
+                            <div class="card-body text-center">
+                              <h6 class="card-title"><strong class="text-success">R$69,90</strong> por pessoa</h6>
+                              <h5 class="card-title">Lasanha Bolonhesa</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-success rounded-pill">Adicionar ao carrinho</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mt-3 rounded-4 shadow">
+                            <img src="./assets/img/picanha-magra.jpg" class="card-img-top rounded-top-4" alt="...">
+                            <div class="card-body text-center">
+                              <h6 class="card-title"><strong class="text-success">R$109,90</strong> por pessoa</h6>
+                              <h5 class="card-title">File Argentino</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-success rounded-pill">Adicionar ao carrinho</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mt-3 rounded-4 shadow">
+                            <img src="./assets/img/vegetable-couscous-with-shrimps-and-fish.jpg" class="card-img-top rounded-top-4" alt="...">
+                            <div class="card-body text-center">
+                              <h6 class="card-title"><strong class="text-success">R$109,90</strong> por pessoa</h6>
+                              <h5 class="card-title">Frutos do mar</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-success rounded-pill">Adicionar ao carrinho</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mt-3 rounded-4 shadow">
+                            <img src="./assets/img/roastbeef-with-grilled-pineapple-and-greens.jpg" class="card-img-top rounded-top-4" alt="...">
+                            <div class="card-body text-center">
+                              <h6 class="card-title"><strong class="text-success">R$99,90</strong> por pessoa</h6>
+                              <h5 class="card-title">Bife com Fritas</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-success rounded-pill">Adicionar ao carrinho</a>
+                            </div>
+                          </div>
+                    </div>
+            </div>  
+            </div>
+        </main>
+        <footer>
+          <div class="container">
+            <div class="custom-shape z-2">
+              <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                  <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+              </svg>
+          </div>
+          <div class="row text-center pt-3 pb-3">
+            <div class="col"><a class="navbar-brand" href="#">ViaLáctea<strong class="ms-1 text-success">food</strong></a></div>
+            <div class="col pt-3"><p>&copy; 2023 Desenvolvido por Sagaweb. Todos os direitos reservados.</p></div>
+          </div>
+          </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
